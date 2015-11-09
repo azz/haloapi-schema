@@ -1,0 +1,2 @@
+# Do not track actual response files 
+**/*.actual.json 
