@@ -1,0 +1,2 @@
+# Hack to convince GitHub this repository contains only JSON
+*.sh linguist-language=JSON
