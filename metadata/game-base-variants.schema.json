@@ -24,14 +24,14 @@
         "minLength": 1
       },
       "iconUrl": {
-        "type": "string",
+        "type": ["string", "null"],
         "minLength": 1
       },
       "supportedGameModes": {
         "type": "array",
         "items": {
-          "required": [],
-          "properties": {}
+          "type": "string",
+          "minLength": 1
         }
       },
       "id": {

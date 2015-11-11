@@ -38,7 +38,7 @@
       "levels": {
         "type": "array",
         "uniqueItems": true,
-        "minItems": 1,
+        "minItems": 0,
         "items": {
           "required": [
             "threshold",
@@ -55,7 +55,7 @@
                 "requisitionPacks": {
                   "type": "array",
                   "uniqueItems": true,
-                  "minItems": 1,
+                  "minItems": 0,
                   "items": {
                     "required": [
                       "name",
